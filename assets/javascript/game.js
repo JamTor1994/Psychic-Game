@@ -30,7 +30,8 @@ document.onkeypress = function(event) {
         losses++;
         alert("You lose")
         computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)]
-    }
+    
+    } 
 //elements
     document.getElementById('wins').innerHTML = "Wins: " + wins;
     document.getElementById('losses').innerHTML = "losses: " + losses;
