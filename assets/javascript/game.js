@@ -30,6 +30,7 @@ document.onkeypress = function(event) {
         losses++;
         alert("You lose")
         computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)]
+        guesses = 10
     
     } 
 //elements
